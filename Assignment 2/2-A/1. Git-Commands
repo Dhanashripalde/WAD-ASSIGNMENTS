@@ -1,1 +1,128 @@
 
+Dhanu@Shri MINGW64 /d/wad git
+$ git clone https://github.com/Dhanashripalde/WAD-ASSIGNMENTS.git
+Cloning into 'WAD-ASSIGNMENTS'...
+remote: Enumerating objects: 26, done.
+remote: Counting objects: 100% (26/26), done.
+remote: Compressing objects: 100% (17/17), done.
+remote: Total 26 (delta 2), reused 5 (delta 0), pack-reused 0
+Receiving objects: 100% (26/26), 6.29 KiB | 3.15 MiB/s, done.
+Resolving deltas: 100% (2/2), done.
+
+Dhanu@Shri MINGW64 /d/wad git
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+Dhanu@Shri MINGW64 /d/wad git
+$ cd WAD-ASSIGNMENTS
+
+Dhanu@Shri MINGW64 /d/wad git/WAD-ASSIGNMENTS (main)
+$ ls
+'Assignment 2'/   README.md
+
+Dhanu@Shri MINGW64 /d/wad git/WAD-ASSIGNMENTS (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Dhanu@Shri MINGW64 /d/wad git/WAD-ASSIGNMENTS (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Assignment 2/2-A/2. Git-Theory
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Dhanu@Shri MINGW64 /d/wad git/WAD-ASSIGNMENTS (main)
+$ git add .
+
+Dhanu@Shri MINGW64 /d/wad git/WAD-ASSIGNMENTS (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   Assignment 2/2-A/2. Git-Theory
+
+
+Dhanu@Shri MINGW64 /d/wad git/WAD-ASSIGNMENTS (main)
+$ git commit -m "Added Theory"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Dhanu@Shri.(none)')
+
+Dhanu@Shri MINGW64 /d/wad git/WAD-ASSIGNMENTS (main)
+$ git config user.email "kbtug22602@kbtcoe.org"
+
+Dhanu@Shri MINGW64 /d/wad git/WAD-ASSIGNMENTS (main)
+$ git commit -m "Added Theory"
+[main 60aadf4] Added Theory
+ 1 file changed, 38 insertions(+)
+
+Dhanu@Shri MINGW64 /d/wad git/WAD-ASSIGNMENTS (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Dhanu@Shri MINGW64 /d/wad git/WAD-ASSIGNMENTS (main)
+$ git remote set-url origin https://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@github.com/Dhanashripalde/WAD-ASSIGNMENTS.git
+
+Dhanu@Shri MINGW64 /d/wad git/WAD-ASSIGNMENTS (main)
+$ git push origin
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 1.24 KiB | 1.24 MiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Dhanashripalde/WAD-ASSIGNMENTS.git
+   827c0f0..60aadf4  main -> main
+
+Dhanu@Shri MINGW64 /d/wad git/WAD-ASSIGNMENTS (main)
+$ git commit -m "Added Theory"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Dhanu@Shri MINGW64 /d/wad git/WAD-ASSIGNMENTS (main)
+$ git pull origin
+remote: Enumerating objects: 8, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (5/5), 797 bytes | 79.00 KiB/s, done.
+From https://github.com/Dhanashripalde/WAD-ASSIGNMENTS
+   60aadf4..7778da9  main       -> origin/main
+Updating 60aadf4..7778da9
+Fast-forward
+ Assignment 2/2-A/1. Git-Commands | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Assignment 2/2-A/1. Git-Commands
+
+Dhanu@Shri MINGW64 /d/wad git/WAD-ASSIGNMENTS (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
